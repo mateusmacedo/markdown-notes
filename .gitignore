@@ -1,0 +1,34 @@
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.orig
+.*.tmp
+
+# Build artifacts (if any markdown tools are used)
+dist/
+build/
+output/
+
+# Node modules (if using markdown tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if using markdown processors)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS files
+Thumbs.db
+desktop.ini
